@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Verifikasi Tanda Tangan Digital</title>
+  <title>Digital Signature Verification</title>
+  <link rel="icon" href="images/lotusrex.ico" type="image/x-icon">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/1.3.1/forge.min.js"></script>
   <style>
@@ -100,7 +101,7 @@
     <p>Upload the ZIP file containing <code>signature.json</code> to verify the digital signature.</p>
     <input type="file" id="zipInput" accept=".zip" />
 
-    <h2 id="txtres"><center>Result</center></h2>
+    <h2 id="txtres" style="display: none;"><center>Result</center></h2>
     <div id="result" class="result-card" style="display: none;"></div>
 
     <div class="image-compare" style="display: none;" id="imageCompare">
